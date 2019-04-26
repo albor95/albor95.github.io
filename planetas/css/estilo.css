@@ -1,0 +1,76 @@
+	html{
+		scroll-behavior: smooth;
+	}
+	body{
+		background-color: black;
+		color:lime;
+	}
+	h1,h2,h3{
+		color:white;
+		text-shadow: 2px 2px 7px lime;
+	}
+	.astro{
+	margin: 1px 4px 0 0;
+	padding: 3px; 
+	background-color: #ffffff; 
+	border: 1px solid #dbdbdb; 
+	margin-left: 500px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px lime;
+	}
+	.btn{
+		/*Arredondamento*/
+		border-radius: 5px;
+		/*tira sublinhado*/
+		text-decoration: none;
+		/*centraliza o texto dentro do quadrado*/
+		text-align: center;
+		/*cor de texto*/
+		color: black;
+		/*cor de fundo*/
+		background-color: lightgray;
+		/*largura*/
+		width: 80px;
+		/*kit centralizador*/
+		display: block;
+		/*kit centralizador*/
+		margin: 0 auto;
+		/*preenchimento*/
+		padding: 10px;
+		/*tamanho da fonte*/
+		font-size: 30px;
+		margin-bottom: 50px; 
+
+	}
+	.btn:hover{/*pseudoclasse-passar o mouse*/
+		box-shadow: 0 0 5px yellow;
+	}
+
+	/*estilização do menu superior*/
+
+	ul{
+		position: sticky;
+		top: 0;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: DodgerBlue;
+
+	}
+	li{
+		float: left;
+
+	}
+	li a{
+		display: block;
+		color: white;
+		font-size: 22px;
+		background-color: DeepBlueSky;
+		padding: 14px 16px;
+		text-align: center;
+		text-decoration: none;
+	}
+li a:hover{
+	background-color: CornFlowerBlue;
+}
