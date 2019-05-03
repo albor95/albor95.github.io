@@ -74,3 +74,59 @@
 li a:hover{
 	background-color: CornFlowerBlue;
 }
+
+tr,td{
+	padding: 5px;
+	border: 1px solid white;
+	border-collapse: collapse;
+	color: black;
+	background-color: white;
+}
+
+fieldset{
+	padding: 10px;
+	margin-top: 12px;
+}
+
+.mer{
+	background-color: burlywood;
+
+}
+
+.ven{
+
+   background-color: orange;
+}
+
+.ter{
+	background-color: limegreen;
+}
+
+.mar{
+  	background-color: firebrick;
+}
+
+.jup{
+background-color: salmon;
+}
+
+.sat{
+background-color: sandybrown;
+}
+
+.ura{
+background-color: aqua;
+}
+
+.net{
+background-color: royalblue;
+}
+
+.img{
+	width: 80px;
+	
+	background-color: #ffffff; 
+	border: 1px solid #dbdbdb; 
+	border-radius: 50%;
+	
+}
